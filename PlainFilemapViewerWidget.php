@@ -36,14 +36,14 @@ class PlainFilemapViewerWidget
     {
 
         //$path = "../../examples";
-        $currentFile = new \RecursiveIteratorIterator(
+        $dir = new \RecursiveIteratorIterator(
             new \RecursiveDirectoryIterator($path)
         );
 
         $this->render(
             "files",
             [
-                'currentFile' => $currentFile
+                'dir' => $dir
             ]
         );
     }

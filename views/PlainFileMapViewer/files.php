@@ -19,7 +19,7 @@
     <?php
 
     $files = [];
-    foreach ($currentFile as $file) {
+    foreach ($dir as $file) {
         $files[]=$file;
 
     }
@@ -62,7 +62,7 @@
                     }
 
                 }
-                // if ($currentFile!=previousFile echo $patPart }
+                // if ($file!=previousFile echo $patPart }
 //                else{
 //                echo  $pathPart
 //                }
