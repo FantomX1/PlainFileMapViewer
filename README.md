@@ -14,4 +14,4 @@ The run method will output rendered HTML.
 
 ## Output example:
 
-![Showcase](showcase.pngs)
+![Showcase](showcase.png)

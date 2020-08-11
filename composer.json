@@ -14,5 +14,11 @@
         "psr-4": {
             "fantomx1\\PlainFilemapViewer\\": "."
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../viewLocator"
+        }
+    ]
 }
