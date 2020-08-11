@@ -1,8 +1,8 @@
 <?php
 
-//$startpath = "../../";
-//$currentFile = new \RecursiveIteratorIterator(
-//    new \RecursiveDirectoryIterator($startpath)
+//$path = "../../";
+//$dir = new \RecursiveIteratorIterator(
+//    new \RecursiveDirectoryIterator($path)
 //);
 
 
